@@ -3,7 +3,9 @@
 		<!-- <NuxtWelcome /> -->
 		<!-- hello Nuxt.js -->
 		<NuxtLayout>
-			<NuxtPage></NuxtPage>
+			<default>
+				<NuxtPage></NuxtPage>
+			</default>
 		</NuxtLayout>
 	</div>
 </template>

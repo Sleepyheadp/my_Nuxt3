@@ -5,6 +5,7 @@ const nuxtapp = useNuxtApp();
 </script>
 <template>
 	<div>posts id: {{ route.params.id }}</div>
+	<button><NuxtLink to="/">back home</NuxtLink></button>
 </template>
 
 <style scoped></style>
