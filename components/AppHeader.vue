@@ -7,5 +7,6 @@
 .header {
 	height: 50px;
 	background-color: pink;
+	line-height: 50px;
 }
 </style>

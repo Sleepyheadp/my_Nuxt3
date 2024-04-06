@@ -7,5 +7,6 @@
 .footer {
 	height: 50px;
 	background-color: skyblue;
+	line-height: 50px;
 }
 </style>
