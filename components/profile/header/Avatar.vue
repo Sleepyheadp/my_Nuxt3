@@ -8,7 +8,7 @@
 		<img src="@/assets/1.jpg" alt="" class="avatar" />
 		<!-- 引入public中的资源 -->
 		<img src="/2.jpg" alt="" class="avatar" />
-		<!-- 如果要使用svg的话,要安装插件进行转译 : jjjjjjkkvite-svg-loader -->
+		<!-- 如果要使用svg的话,要安装插件进行转译 : vite-svg-loader -->
 	</div>
 </template>
 
