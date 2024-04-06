@@ -1,6 +1,11 @@
-<script setup></script>
+<script setup lang="ts">
+const { x, y } = useMouse();
+</script>
 <template>
-	<div>about page</div>
+	<div>
+		<h1>about page</h1>
+		<div>pos: {{ x }}, {{ y }}</div>
+	</div>
 </template>
 
 <style scoped></style>
