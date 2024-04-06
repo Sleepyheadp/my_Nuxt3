@@ -1,6 +1,7 @@
 <template>
 	<div class="content">
 		<div class="title">home page</div>
+		<button><NuxtLink to="/profile">to Profile</NuxtLink></button>
 		<button><NuxtLink to="/posts/1">to posts 1</NuxtLink></button>
 		<button><NuxtLink to="/posts/2">to posts 2</NuxtLink></button>
 		<!-- 使用组件(已自动引入) -->
