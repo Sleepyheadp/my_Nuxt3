@@ -1,5 +1,5 @@
 export const useSum = () => {
-	const counter = useCounter();
+	const count = useCount();
 	const num = ref(1);
-	return counter.value + num.value;
+	return count.value + num.value;
 };

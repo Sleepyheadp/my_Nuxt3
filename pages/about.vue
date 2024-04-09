@@ -5,6 +5,7 @@ const { x, y } = useMouse();
 	<div>
 		<h1>about page</h1>
 		<div>pos: {{ x }}, {{ y }}</div>
+		<Hello></Hello>
 	</div>
 </template>
 
